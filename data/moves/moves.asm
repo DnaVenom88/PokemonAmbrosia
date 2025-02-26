@@ -66,7 +66,7 @@ Moves: ; 41afb
 	move EMBER,        EFFECT_BURN_HIT,           40, FIRE,          SPECIAL,  100, 25,  10
 	move FLAMETHROWER, EFFECT_BURN_HIT,           95, FIRE,          SPECIAL,  100, 15,  10
 	move GEOMANCY,     EFFECT_GEOMANCY,            0, NORMAL,        STATUS,   100, 10,   0
-	move WATER_GUN,    EFFECT_NORMAL_HIT,         40, WATER,         SPECIAL,  100, 25,   0
+	move WATER_GUN,    EFFECT_NORMAL_HIT,         45, WATER,         SPECIAL,  100, 25,   0
 	move HYDRO_PUMP,   EFFECT_NORMAL_HIT,        120, WATER,         SPECIAL,   85, 10,   0
 	move SURF,         EFFECT_NORMAL_HIT,         95, WATER,         SPECIAL,  100, 15,   0
 	move ICE_BEAM,     EFFECT_FREEZE_HIT,         95, ICE,           SPECIAL,  100, 10,  10
@@ -217,7 +217,7 @@ Moves: ; 41afb
 	move ENDURE,       EFFECT_ENDURE,              0, NORMAL,        STATUS,   100, 10,   0
 	move CHARM,        EFFECT_ATTACK_DOWN_2,       0, FAIRY,         STATUS,   100, 20,   0
 	move ROLLOUT,      EFFECT_ROLLOUT,            30, ROCK,          PHYSICAL,  90, 20,   0
-	move FALSE_SWIPE,  EFFECT_FALSE_SWIPE,        40, NORMAL,        PHYSICAL, 100, 40,   0
+	move FALSE_SWIPE,  EFFECT_FALSE_SWIPE,        50, NORMAL,        PHYSICAL, 100, 40,   0
 	move SWAGGER,      EFFECT_SWAGGER,             0, NORMAL,        STATUS,    90, 15, 100
 	move MILK_DRINK,   EFFECT_HEAL,                0, NORMAL,        STATUS,   100, 10,   0
 	move VOLT_TACKLE,  EFFECT_RECOIL_HIT,        120, ELECTRIC,      PHYSICAL, 100, 15,   0
@@ -239,7 +239,7 @@ Moves: ; 41afb
 	move DRAGON_PULSE, EFFECT_SP_DEF_DOWN_HIT,    90, DRAGON,        SPECIAL,  100, 15,  10
 	move BATON_PASS,   EFFECT_BATON_PASS,          0, NORMAL,        STATUS,   100, 40,   0
 	move ENCORE,       EFFECT_ENCORE,              0, NORMAL,        STATUS,   100,  5,   0
-	move PURSUIT,      EFFECT_NORMAL_HIT,         50, DARK,          PHYSICAL, 100, 20,   0
+	move FEINT_ATTACK, EFFECT_ALWAYS_HIT,         50, DARK,          PHYSICAL, 100, 20,   0
 	move RAPID_SPIN,   EFFECT_RAPID_SPIN,         20, NORMAL,        PHYSICAL, 100, 40,   0
 	move SHELL_SMASH,  EFFECT_SHELL_SMASH,        0, WATER,          STATUS,   100, 10,   0
 	move IRON_HEAD,    EFFECT_FLINCH_HIT,         80, STEEL,         PHYSICAL, 100, 15,  30
